@@ -1,0 +1,10 @@
+#!/bin/bash
+
+word=$1
+lang=$2
+[ -z $word ] && exit
+
+echo word $word 
+echo
+echo $word | hunspell -d $lang 
+# echo $word | hunspell -d el_GR 
