@@ -25,5 +25,10 @@ check_installed
 rundir=$(realpath $0)
 rundir=$(dirname $rundir)
 
-[ -z $2 ] && lang=el_GR
-echo |fzf -q "" --preview="$rundir/dict_view {q} $lang" --preview-window 60
+while true; 
+do
+    ret=$(echo |fzf -q "" --preview="$rundir/dict_view {q} " --preview-window 60)
+    if [ $? -eq 0 ]; then
+        exit
+    fi
+done

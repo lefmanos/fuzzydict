@@ -6,5 +6,9 @@ lang=$2
 
 echo word $word 
 echo
-echo $word | hunspell -d $lang 
-# echo $word | hunspell -d el_GR 
+echo English
+echo $word | hunspell -d 
+echo
+echo
+echo Greek
+echo $word | hunspell -d el_GR 
