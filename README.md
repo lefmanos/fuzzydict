@@ -1,5 +1,7 @@
-#FuzzyDict
-FuzzyDict is a live spellchecker integrated with the fzf command-line fuzzy finder. The tool uses the hunspell utility for spellchecking.
+# FuzzyDict
+
+FuzzyDict is a live spellchecker integrated with the fzf command-line fuzzy
+finder. The tool uses the hunspell utility for spellchecking.
 
 ## Requirements
 
